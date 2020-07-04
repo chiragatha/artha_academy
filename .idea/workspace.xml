@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2d998de-9285-4f7d-825b-9e66954365b3" name="Default Changelist" comment="" />
+    <list default="true" id="c2d998de-9285-4f7d-825b-9e66954365b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/djangoproject/account/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoproject/account/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoproject/account/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoproject/account/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoproject/account/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoproject/account/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoproject/account/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoproject/account/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoproject/lectures/Sample_Videos___Dummy_Videos_For_Demo_Use.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoproject/pdfs/Artha_Academy.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoproject/pdfs/Artha_Academy_nSTKq0Q.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoproject/templates/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoproject/artha/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoproject/artha/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoproject/artha/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoproject/artha/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoproject/artha/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoproject/artha/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoproject/artha/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoproject/artha/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoproject/artha/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoproject/artha/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoproject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/djangoproject/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoproject/djangoproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoproject/djangoproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoproject/templates/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoproject/templates/resources.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +38,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/chiragatha/artha_academy.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1e4SvQqACXnB4n51yP511Oyx157" />
   <component name="ProjectViewState">
@@ -63,12 +92,24 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -79,22 +120,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="Removing redundant configuration" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="401" y="202" width="598" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593590770576">
+    <state x="401" y="202" width="598" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593876133496">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state x="401" y="202" width="598" height="397" key="#com.intellij.fileTypes.FileTypeChooser/44.27.1322.741@44.27.1322.741" timestamp="1593590770576" />
+    <state x="401" y="202" width="598" height="397" key="#com.intellij.fileTypes.FileTypeChooser/44.27.1322.741@44.27.1322.741" timestamp="1593876133496" />
     <state x="286" y="27" width="827" height="741" key="CommitChangelistDialog2" timestamp="1593734247595">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
     <state x="286" y="27" width="827" height="741" key="CommitChangelistDialog2/44.27.1322.741@44.27.1322.741" timestamp="1593734247595" />
-    <state x="194" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1593734134906">
+    <state x="194" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1593735021627">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state x="194" y="31" width="1022" height="737" key="SettingsEditor/44.27.1322.741@44.27.1322.741" timestamp="1593734134906" />
+    <state x="194" y="31" width="1022" height="737" key="SettingsEditor/44.27.1322.741@44.27.1322.741" timestamp="1593735021627" />
     <state x="300" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1593734164070">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
     <state x="300" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/44.27.1322.741@44.27.1322.741" timestamp="1593734164070" />
+    <state x="144" y="127" width="1122" height="541" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593840624947">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="144" y="127" width="1122" height="541" key="com.intellij.history.integration.ui.views.FileHistoryDialog/44.27.1322.741@44.27.1322.741" timestamp="1593840624947" />
+    <state x="473" y="317" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593734849421">
+      <screen x="44" y="27" width="1322" height="741" />
+    </state>
+    <state x="473" y="317" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/44.27.1322.741@44.27.1322.741" timestamp="1593734849421" />
     <state x="475" y="265" width="450" height="272" key="git4idea.rebase.GitRebaseDialog" timestamp="1593734545994">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
