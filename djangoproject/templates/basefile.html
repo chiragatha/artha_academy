@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Artha Academy</title>
+    <link rel="stylesheet" href="{% static 'artha/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  </head>
+
+  <body>
+
+    <input type="checkbox" id="check">
+    <!--header area start-->
+    <header>
+      <label for="check">
+        <i class="fas fa-bars" id="sidebar_btn"></i>
+      </label>
+      <div class="left_area">
+        <h3>Artha <span>Academy</span></h3>
+      </div>
+      <div class="right_area">
+        <a href="#" class="logout_btn">Logout</a>
+      </div>
+    </header>
+    <!--header area end-->
+    <!--sidebar start-->
+    <div class="sidebar">
+      <center>
+        <img src="/static/artha/1.png" class="profile_image" alt="">
+        <h4>Chirag Atha</h4>
+      </center>
+      <a href="/accounts/resources/dashboard"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+      <a href="/accounts/resources/courses"><i class="fas fa-book"></i><span>Courses</span></a>
+      <a href="/accounts/resources/calendar"><i class="fas fa-calendar"></i><span>Calendar</span></a>
+      <a href="/accounts/resources/search"><i class="fas fa-search"></i><span>Search</span></a>
+      <a href="/accounts/resources/faqs"><i class="fas fa-info-circle"></i><span>FAQs</span></a>
+      <a href="/accounts/resources/settings"><i class="fas fa-sliders-h"></i><span>Settings</span></a>
+    </div>
+    <!--sidebar end-->
+
+    <div class="content", name ="content", id ="content" >
+     {% block content %}
+      {% endblock content %}
+    </div>
+
+  </body>
+</html>

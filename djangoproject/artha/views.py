@@ -15,7 +15,7 @@ class SignUp(generic.CreateView):
 def courses(request):
     ac = Courses.objects.all()
     context = {'ac' : ac}
-    return render (request,'resources.html',context)
+    return render (request,'courses.html',context)
 
 def details(request,course_id):
     try:
@@ -23,3 +23,12 @@ def details(request,course_id):
     except Courses.DoesNotExist:
         raise Http404("Course Not Available")
     return render (request, 'detail.html',{'course': course})
+
+def calendar(request):
+    return render(request,'calendar.html')
+def search(request):
+    return render(request,'search.html')
+def faqs(request):
+    return render(request,'faq.html')
+def settings(request):
+    return render(request,'settings.html')

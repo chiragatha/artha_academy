@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% extends 'basefile.html'%}
+{% load static %}
+{% block content %}
+
+<p>Courses</p>
+<ol>
+    {% if ac %}
+        {% for x in ac %}
+            <li><a href = "/accounts/resources/courses/{{x.id}}/"> {{x.course_name}}</a> </li>
+        {% endfor %}
+    {% else %}
+        There is no data
+    {% endif %}
+</ol>
+
+{% endblock %}
