@@ -5,6 +5,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 from .views import courses, calendar, search, faqs, settings
 
+
 urlpatterns = [
     path('signup/', views.SignUp.as_view(), name='signup'),
     path('resources/',views.courses,name= 'resources'),
@@ -15,6 +16,8 @@ urlpatterns = [
     path('resources/search',search, name= 'search'),
     path('resources/faqs',faqs, name= 'faqs'),
     path('resources/settings',settings, name= 'settings'),
+
+
 ]
 
 urlpatterns += staticfiles_urlpatterns()

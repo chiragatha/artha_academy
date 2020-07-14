@@ -1,10 +1,12 @@
 from django.http import HttpResponse, Http404
 from django.contrib.auth.forms import UserCreationForm
 from django.shortcuts import render
-from django.template import loader
+from django.contrib.auth import logout
 from django.urls import reverse_lazy
 from django.views import generic
-from .models import Courses,Details
+from django.views.decorators.csrf import ensure_csrf_cookie
+
+from .models import Courses, Details, Subject
 
 
 class SignUp(generic.CreateView):
@@ -23,6 +25,11 @@ def details(request,course_id):
     except Courses.DoesNotExist:
         raise Http404("Course Not Available")
     return render (request, 'detail.html',{'course': course})
+
+def subjects(request):
+    sub = Subject.objects.all()
+    context = {'sub' : sub}
+    return render (request,'detail.html',context)
 
 def calendar(request):
     return render(request,'calendar.html')

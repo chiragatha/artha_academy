@@ -4,5 +4,15 @@
 {% load static %}
 {% block content %}
 
-<p>{{course.course_name}}</p>
+<p>Subjects</p>
+<ol>
+    {% if sub %}
+        {% for y in sub %}
+            <li><a href = "/accounts/resources/courses/{{y.id}}/"> {{y.subject_name}}</a> </li>
+        {% endfor %}
+    {% else %}
+        There is no data
+    {% endif %}
+</ol>
+
 {% endblock %}
