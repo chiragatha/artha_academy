@@ -15,7 +15,7 @@ class SignUp(generic.CreateView):
     template_name = 'signup.html'
 
 def courses(request):
-    ac = Courses.objects.all()
+    ac = Courses.objects.filter(std__startswith='2')
     context = {'ac' : ac}
     return render (request,'courses.html',context)
 
